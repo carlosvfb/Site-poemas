@@ -1,0 +1,63 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o container do áudio */
+#audio-container {
+    width: 300px; /* largura desejada */
+    margin: 20px auto; /* centralizar na página */
+    text-align: center;
+}
+
+/* Estilo para a mensagem alternativa */
+#audio-message {
+    color: red; /* cor do texto */
+    font-size: 18px; /* tamanho da fonte */
+}
+
+/* Estilo para o controle de áudio */
+#audio, audio {
+    width: 100%; /* ocupar a largura do container */
+    margin-top: 10px; /* espaço acima do controle de áudio */
+    color: yellow;
+}
+
+.parallax {
+    background-image: url('https://media.istockphoto.com/id/517188688/pt/foto/paisagem-de-montanha.jpg?s=612x612&w=0&k=20&c=uFGUrUT6gA8FrTWhE10YYzngWPlDLssKxJiDs1Qw2Qs=');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+.parallax-content {
+    text-align: center;
+}
+
+.poem-section {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.poema1, .poema2, .poema3, .poema4, .poema5, .poema6, .poema7, .poema8, .poema9, .poema10, .poema11, .poema12, .poema13, .poema14{
+    font-family: "Georgia", serif;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    margin: 10px auto; /* Reduzindo a margem superior e inferior */
+    padding: 5px; /* Reduzindo o preenchimento interno */
+}
+
+.poema1, .poema2, .poema3, .poema4, .poema5, .poema6, .poema7, .poema8, .poema9, .poema10, .poema11, .poema12, .poema13, .poema14        p {
+    font-style: italic;
+    margin-bottom: 5px; /* Reduzindo o espaçamento entre os versos */
+}
+
+
